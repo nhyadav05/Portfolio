@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* index.css or a similar global stylesheet */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+.container {
+  max-width: 1200px; /* Adjust the maximum width as needed */
+  margin: 0 auto;
+  padding: 5px 5px; /* Adjust padding as needed */
+}
